@@ -1,2 +1,2 @@
 # javascriptcode
-javascript code series 
+javascript from basic to advance
