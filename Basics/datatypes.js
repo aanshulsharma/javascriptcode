@@ -25,4 +25,4 @@ console.log(typeof null); // output object
 console.log(typeof undefined); // output is undefined 
 
 //null is of object type
-//undefined is a type also
+//undefined is also a type
