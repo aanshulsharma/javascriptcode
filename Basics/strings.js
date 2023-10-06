@@ -28,6 +28,9 @@ console.log(stringg("Anshul","30"));
 //yaha pr humne name diya string ke object ko gameName and String ka use krke uske ke constructor ke andar name diya
 const gameName = new String('anshulsh')
 
+const Namegame = new String('ansh-uls-h')
+
+
 // this is the key string is always in the key value pairs
 console.log(gameName[3]);
 console.log(gameName.length);
@@ -54,4 +57,24 @@ console.log(NewString);
 
 //now we learn about slice method.
 
-const anotherString = gameName.slice();
+const anotherString = gameName.slice(3,7);
+console.log(anotherString);
+
+const NewStringg = '        Anshul Sharma        ';
+
+console.log(NewStringg.trim());
+console.log(NewStringg.trimStart());
+console.log(NewStringg.trimEnd());
+
+//by using this method we can trim from start and end of the string also 
+
+
+// by using this we can use replace method 
+const url = "https://anshulvp.com/anshul%20sharma"
+
+console.log(url.replace('%20','-'))
+
+//if we want to know that string is having that specific word or not we can use include method
+console.log(url.includes('anshul'));
+
+console.log(Namegame.split('-'));
